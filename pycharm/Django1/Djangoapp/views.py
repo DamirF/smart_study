@@ -31,3 +31,7 @@ def registr(request):
 def chats(request):
     return render(request, 'Djangoapp/chats-teacher.html')
 
+
+def info(request):
+    return render(request, 'Djangoapp/info.html')
+
