@@ -10,7 +10,7 @@ def index(request):
 
 
 def about(request):
-    return render(request, 'main/about.html')
+    return render(request, 'main/explorer_base.html')
 
 def auth(request):
     return render(request, 'main/auth.html')

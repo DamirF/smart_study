@@ -7,7 +7,7 @@ def index(request):
 
 
 def about(request):
-    return render(request, 'Djangoapp/about.html')
+    return render(request, 'Djangoapp/explorer_base.html')
 
 
 def news(request, news_id):
