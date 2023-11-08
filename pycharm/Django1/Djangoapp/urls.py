@@ -9,5 +9,7 @@ urlpatterns = [
     path('registr', views.registr, name='registr'),
     path('chats', views.chats, name='chats'),
     path('info', views.info, name='info'),
+    path('profile', views.profile, name='profile'),
+    path('profile/edit', views.profile_edit, name='profile-edit'),
     path('news/<int:news_id>/', views.news, name='news')
 ]

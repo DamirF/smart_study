@@ -35,3 +35,13 @@ def chats(request):
 def info(request):
     return render(request, 'Djangoapp/info.html')
 
+
+def profile(request):
+    return render(request, 'Djangoapp/profile.html')
+
+
+def profile_edit(request):
+    return render(request, 'Djangoapp/profile_edit.html')
+
+
+

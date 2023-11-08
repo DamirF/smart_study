@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{% static 'Djangoapp/css/header.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Montserrat&family=Roboto&family=Rowdies&family=Rubik&family=Russo+One&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Montserrat&family=Roboto&family=Rowdies&family=Rubik:wght@400;700&family=Russo+One&display=swap"
           rel="stylesheet">
     <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">-->
     {% block style %}{% endblock %}
@@ -45,7 +45,7 @@
                 <a class="icon-container" title="Выход" href="{% url 'home' %}">
                     <img src="{% static 'Djangoapp/icons/exit.svg' %}">
                 </a>
-                <a class="icon-container" title="Профиль" href="{% url 'home' %}">
+                <a class="icon-container" title="Профиль" href="{% url 'profile' %}">
                     <img src="{% static 'Djangoapp/icons/user.svg' %}">
                 </a>
             </div>
